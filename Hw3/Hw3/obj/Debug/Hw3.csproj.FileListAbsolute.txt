@@ -1,0 +1,2 @@
+C:\Users\Игорь\source\repos\Hw3\Hw3\obj\Debug\Hw3.csproj.AssemblyReference.cache
+C:\Users\Игорь\source\repos\Hw3\Hw3\obj\Debug\Hw3.csproj.CoreCompileInputs.cache

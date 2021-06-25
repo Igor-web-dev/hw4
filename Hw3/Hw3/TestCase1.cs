@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hw3
 {
-    class TestCase1
+    class TestCase1 : TestFlow
     {
     }
 }
