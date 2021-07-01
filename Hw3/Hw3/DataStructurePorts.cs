@@ -10,6 +10,7 @@ namespace Hw3
     {
         public  enum QuantityOfPorts
         {
+            // когда его сетапить DataStructurePorts 
             One = 1,
             Two = 2,
             Four = 4,

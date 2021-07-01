@@ -8,10 +8,13 @@ namespace Hw3
 {
     class TestTemplate
     {
-           /*        Как хранить данные про скорость*/
+        /*        Как хранить данные про скорость*/
+        private List<byte> portsNumbers;
+        private List<byte> portsSpeeds;
         public bool SetPortSpeed(byte portNumber,byte portSpeed)  
         {
-                                     /*Array ?*/
+            this.portsNumbers.Add(portNumber);
+            this.portsSpeeds.Add(portSpeed);
 
             return true;
         }
@@ -21,8 +24,6 @@ namespace Hw3
         }
         public byte ReadRegisterValue()
         {
-
-/*                     А какие бывают типы регистров                                             */
             return 0;
         }
     }
