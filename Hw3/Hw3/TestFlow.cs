@@ -10,9 +10,8 @@ namespace Hw3
     {
         public bool Run()
         {
+            // step one -- read from FW register "PortCount" current quantity of ports    this.ReadRegisterValue()
             ReadRegisterValue(DataStructureFwRegister.Registers.PortCount);
-/*            int port = 8;
-            if (port == (int)DataStructurePorts.QuantityOfPorts.One || port == (int)DataStructurePorts.QuantityOfPorts.Two);*/
             return true;
         }
     }

@@ -13,16 +13,16 @@ namespace Hw3
         {
                                      /*Array ?*/
 
-            PerformReset();
             return true;
         }
         public bool PerformReset()
         {
             return true;
         }
-        public byte ReadRegisterValue(DataStructureFwRegister.Registers registerName)
+        public byte ReadRegisterValue()
         {
-/*                                                                               А какие бывают типы регистров                                                                             */
+
+/*                     А какие бывают типы регистров                                             */
             return 0;
         }
     }

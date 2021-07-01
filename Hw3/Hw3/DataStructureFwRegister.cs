@@ -10,8 +10,15 @@ namespace Hw3
     {
         public  enum Registers
         {
-            PortCount = 1,
-            PortSpeed = 2
+            PortCount,
+            Port1Speed,
+            Port2Speed,
+            Port3Speed,
+            Port4Speed,
+            Port5Speed,
+            Port6Speed,
+            Port7Speed,
+            Port8Speed
         }
     }
 }
